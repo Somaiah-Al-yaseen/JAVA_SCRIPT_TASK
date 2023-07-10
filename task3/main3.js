@@ -1,50 +1,46 @@
-let inputMonth = prompt("Tell me your birth month in number:" , "your birth month");
+let  text   =  Number(prompt("Enter Your Birthday Month"))
 
-let monthName;
+let x ;
 
-
-switch (inputMonth) {
-  case 1:
-    monthName = "January";
+switch (text) {
+    case 1:
+      x = "January";
+      break;
+    case 2:
+      x = "February";
+      break;
+    case 3:
+      x = "March";
+      break;
+    case 4:
+        x ="April";
+        break;
+    case  5:
+        x  ="May";
+        break;
+    case 6:
+        x ="June";
+        break;
+    case  7:
+        x ="July";
+        break;
+    case 8:
+        x ="August";
+        break;
+    case 9:
+        x  ="September";
+        break;
+    case  10:
+        x  ="Octoper";
+        break;
+    case 11:
+        x="November";
+        break;
+    case 12:
+            x="December";
     break;
-  case 2:
-    monthName = "February";
-    break;
-  case 3:
-    monthName = "March";
-    break;
-  case 4:
-    monthName = "April";
-    break;
-  case 5:
-    monthName = "May";
-    break;
-  case 6:
-    monthName = "June";
-    break;
-  case 7:
-    monthName = "July";
-    break;
-  case 8:
-    monthName = "August";
-    break;
-  case 9:
-    monthName = "September";
-    break;
-  case 10:
-    monthName = "October";
-    break;
-  case 11:
-    monthName = "November";
-    break;
-  case 12:
-    monthName = "December";
-    break;
-  default:
-    monthName = "Invalid month";
-    break;
-}
-
-
-console.log("The output: " + monthName);
     
+
+
+  }
+console.log(x)
